@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #fce138;
-    --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
+    --primary-color:#00008B;
+    --secondary-color:#30D5C8;
+    --tertiary-color:#F5F5DC;
 }
 
 * {
@@ -11,7 +11,57 @@
 }
 
 body {
-    color: var(--tertiary-color);
+    color: var(--primary-color);
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Start header nave bar styles  */
+header {
+    padding: 10px 20px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+/* How do I add space between each a element's bottom border?  */
+header nav ul li a {
+    padding: 10px 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    border-bottom: 5px solid var(--primary-color);
+    font-style: oblique;
+}
+
+/* Header navbar styles end  */
+
+/* Banner styles start  */
