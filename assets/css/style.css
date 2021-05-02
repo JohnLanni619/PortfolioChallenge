@@ -107,17 +107,42 @@ header nav ul li a {
     border: 3px solid red;
     height: 300px;
     margin: 10px;
+    padding: 50px 0;
 }
 
 /* How do I add a link to the image?  */
 /* adjust width so all elements are properly aligned */
 .flexbox-item-1 {
     width: 80%;
-    height: 60%;
-    padding: 75px 0;
+    padding: 130px 0;
     background-image: url(../images/hero-bg.jpg);
     background-size:cover;
 }
+
+.flexbox-item-2 {
+    background-image: url(../images/social-media-marketing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.flexbox-item-3 {
+    background-image: url(../images/robot-gladiators.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.flexbox-item-4 {
+    background-image: url(../images/password-generator.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.flexbox-item-5 {
+    background-image: url(../images/quiz.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .flexbox-item-2, .flexbox-item-3, .flexbox-item-4, .flexbox-item-5 {
     width: 40%;
     height: 150px;
