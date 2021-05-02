@@ -1,5 +1,5 @@
 :root {
-    --primary-color:#00008B;
+    --primary-color:#850707 ;
     --secondary-color:#30D5C8;
     --tertiary-color:#F5F5DC;
 }
@@ -11,8 +11,16 @@
 }
 
 body {
-    color: var(--primary-color);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 40px;
+    color: var(--primary-color);
+    font-style: italic;
+    text-shadow: 2px 2px 5px black;
+    border-right: 5px solid rgb(1, 1, 15);
+    text-align: center;
 }
 
 /* Start header nave bar styles  */
@@ -31,9 +39,8 @@ header {
 header h1 {
     font-weight: bold;
     margin: 0;
-    font-size: 3.0vw;
+    font-size: 30px;
     color: var(--primary-color);
-    background-color: var(--secondary-color);
 }
 
 header a {
@@ -59,7 +66,7 @@ header nav ul li a {
     font-size: 1.55vw;
     border-bottom: 5px solid var(--primary-color);
     font-style: oblique;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 /* Header navbar styles end  */
@@ -73,33 +80,53 @@ header nav ul li a {
     padding: 40px;
     flex-wrap: wrap;
     background-attachment: fixed;
+    color: white;
+    height: 10vw;
 }
+
 /* About me styling  */
 #about-me {
     display: flex;
-    border: 10px solid black;
+    border: 5px solid black;
+    height: 200px;
+    margin: 15px 0 15px 100px;
 }
 
-#about-me p {
-    padding-left: 20px;
-    border: 10px solid blue;
+#about-me h3 {
+    height: 100%;
+    padding: 0 15px 0 28px;
 }
 
+.section-content {
+    display: flex;
+    margin-left: 33px;
+    justify-content: space-between;
+    width: 73%;
+}
 
+.section-content p {
+    border: 3px solid blue;
+    flex-grow: 1;
+    padding: 10px 0px 0px 10px
+}
 
 /* Work styling  */
 #work {
     display: flex;
     border: 3px solid pink;
+    margin: 10px 0 10px 100px;
+}
+
+#work h3 {
+    padding: 0 15px 0 46.5px;
 }
 
 .flexbox-container {
     display: flex;
     border: 3px solid orange;
-    border-left: 10px solid blue;
     flex-wrap: wrap;
     padding-left: 20px;
-    width: 100%;
+    width: 75%;
     height: min-content;
 }
 
@@ -108,15 +135,17 @@ header nav ul li a {
     height: 300px;
     margin: 10px;
     padding: 50px 0;
+    color: red;
 }
 
 /* How do I add a link to the image?  */
 /* adjust width so all elements are properly aligned */
 .flexbox-item-1 {
-    width: 80%;
+    width: 100%;  
     padding: 130px 0;
     background-image: url(../images/hero-bg.jpg);
     background-size:cover;
+    
 }
 
 .flexbox-item-2 {
@@ -146,6 +175,8 @@ header nav ul li a {
 .flexbox-item-2, .flexbox-item-3, .flexbox-item-4, .flexbox-item-5 {
     width: 40%;
     height: 150px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 /* Footer styling  */
@@ -153,6 +184,11 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin:15px 0 15px 100px;
+}
+
+footer h3 {
+    padding-right: 15px;
 }
 
 footer ul {
