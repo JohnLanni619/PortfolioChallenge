@@ -1,6 +1,6 @@
 :root {
     --primary-color:#850707 ;
-    --secondary-color:#30D5C8;
+    --secondary-color: #ADD8E6;
     --tertiary-color:#F5F5DC;
 }
 
@@ -41,6 +41,7 @@ header h1 {
     margin: 0;
     font-size: 30px;
     color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 header a {
@@ -179,6 +180,7 @@ header nav ul li a {
 footer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin:15px 0 15px 100px;
 }
 
@@ -188,7 +190,8 @@ footer h3 {
 
 footer ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: flex-end;
     list-style: none;
 }
 
@@ -198,9 +201,12 @@ footer ul li {
     font-size: 1.2vw;
     border-bottom: 5px solid var(--primary-color);
     font-style: oblique;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 170px;
+    flex-grow: 1;
 }
 
 footer a {
     text-decoration: none;
+    height: 100%;
 }
