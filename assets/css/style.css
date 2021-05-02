@@ -76,7 +76,6 @@ header nav ul li a {
 }
 /* About me styling  */
 #about-me {
-    margin-left: 50px;
     display: flex;
     border: 10px solid black;
 }
@@ -92,7 +91,6 @@ header nav ul li a {
 #work {
     display: flex;
     border: 3px solid pink;
-    margin-left: 50px;
 }
 
 .flexbox-container {
@@ -123,4 +121,27 @@ header nav ul li a {
 .flexbox-item-2, .flexbox-item-3, .flexbox-item-4, .flexbox-item-5 {
     width: 40%;
     height: 150px;
+}
+
+/* Footer styling  */
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+footer ul li {
+    padding: 10px 50px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    border-bottom: 5px solid var(--primary-color);
+    font-style: oblique;
+    margin-right: 20px;
 }
