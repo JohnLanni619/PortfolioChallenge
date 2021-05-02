@@ -31,7 +31,7 @@ header {
 header h1 {
     font-weight: bold;
     margin: 0;
-    font-size: 36px;
+    font-size: 3.0vw;
     color: var(--primary-color);
     background-color: var(--secondary-color);
 }
@@ -53,15 +53,74 @@ header nav ul {
     list-style: none;
 }
 
-/* How do I add space between each a element's bottom border?  */
 header nav ul li a {
     padding: 10px 30px;
     font-weight: lighter;
     font-size: 1.55vw;
     border-bottom: 5px solid var(--primary-color);
     font-style: oblique;
+    margin-right: 10px;
 }
 
 /* Header navbar styles end  */
 
 /* Banner styles start  */
+.hero {
+    background-image: url(../images/banner-image.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+}
+/* About me styling  */
+#about-me {
+    margin-left: 50px;
+    display: flex;
+    border: 10px solid black;
+}
+
+#about-me p {
+    padding-left: 20px;
+    border: 10px solid blue;
+}
+
+
+
+/* Work styling  */
+#work {
+    display: flex;
+    border: 3px solid pink;
+    margin-left: 50px;
+}
+
+.flexbox-container {
+    display: flex;
+    border: 3px solid orange;
+    border-left: 10px solid blue;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    width: 100%;
+    height: min-content;
+}
+
+.flexbox-item {
+    border: 3px solid red;
+    height: 300px;
+    margin: 10px;
+}
+
+/* How do I add a link to the image?  */
+/* adjust width so all elements are properly aligned */
+.flexbox-item-1 {
+    width: 80%;
+    height: 60%;
+    padding: 75px 0;
+    background-image: url(../images/hero-bg.jpg);
+    background-size:cover;
+}
+.flexbox-item-2, .flexbox-item-3, .flexbox-item-4, .flexbox-item-5 {
+    width: 40%;
+    height: 150px;
+}
