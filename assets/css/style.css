@@ -20,7 +20,7 @@ h3 {
     font-style: italic;
     text-shadow: 2px 2px 5px black;
     border-right: 5px solid rgb(1, 1, 15);
-    text-align: center;
+    text-align: right;
 }
 
 /* Start header nave bar styles  */
@@ -87,14 +87,13 @@ header nav ul li a {
 /* About me styling  */
 #about-me {
     display: flex;
-    border: 5px solid black;
     height: 200px;
     margin: 15px 0 15px 100px;
 }
 
 #about-me h3 {
     height: 100%;
-    padding: 0 15px 0 28px;
+    padding: 0 15px 0 33px;
 }
 
 .section-content {
@@ -105,7 +104,6 @@ header nav ul li a {
 }
 
 .section-content p {
-    border: 3px solid blue;
     flex-grow: 1;
     padding: 10px 0px 0px 10px
 }
@@ -113,17 +111,15 @@ header nav ul li a {
 /* Work styling  */
 #work {
     display: flex;
-    border: 3px solid pink;
     margin: 10px 0 10px 100px;
 }
 
 #work h3 {
-    padding: 0 15px 0 46.5px;
+    padding: 0 15px 0 49.5px;
 }
 
 .flexbox-container {
     display: flex;
-    border: 3px solid orange;
     flex-wrap: wrap;
     padding-left: 20px;
     width: 75%;
@@ -182,7 +178,6 @@ header nav ul li a {
 /* Footer styling  */
 footer {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     margin:15px 0 15px 100px;
 }
@@ -193,16 +188,19 @@ footer h3 {
 
 footer ul {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
     list-style: none;
 }
 
 footer ul li {
-    padding: 10px 50px;
+    padding: 10px 50px; 
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 1.2vw;
     border-bottom: 5px solid var(--primary-color);
     font-style: oblique;
     margin-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
 }
