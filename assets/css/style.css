@@ -230,3 +230,101 @@ a:hover {
     border-radius: 25px;
 
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1{
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+        border: none;
+    }
+
+    .hero {
+        width: 100%;
+        text-align: center;
+        height: fit-content;
+    }
+
+    #about-me {
+        padding: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        height: fit-content;
+        margin: 0;
+    }
+
+    #about-me h3 {
+        width: 100%;
+        text-align: center;
+        border: none;
+        display: flex;
+    }
+
+    #about-me img {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #about-me p {
+        flex:none;
+        border: 10px solid orange;
+    }
+
+    #work {
+        padding: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        height: fit-content;
+        margin: 0;
+    }
+
+    #work h3 {
+        border: none;
+    }
+
+    #work h4 {
+        font-size: small;
+        width: fit-content;
+    }
+
+    footer {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    footer h3{
+        width: 100%;
+        text-align: center;
+        border: none;
+    }
+
+    footer div ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    footer div ul li a {
+        font-size: 20px;
+        border: none;
+    }
+    
+}
