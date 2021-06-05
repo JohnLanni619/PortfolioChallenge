@@ -115,8 +115,22 @@ header nav ul li a {
     margin: 10px 0 10px 100px;
 }
 
+#work div a {
+    text-decoration: none;
+    color: blanchedalmond;
+    
+}
+
 #work h3 {
     padding: 0 15px 0 49.5px;
+}
+
+#work h4 {
+    background-color: var(--primary-color);
+}
+
+#work p {
+    background-color: var(--primary-color) ;
 }
 
 .flexbox-container {
