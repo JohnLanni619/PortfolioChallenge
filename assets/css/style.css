@@ -149,19 +149,19 @@ h4 {
 .flexbox-item-1 {
     width: 100%;  
     padding: 130px 0;
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url(../images/ambience.jpeg);
     background-size:cover;
     
 }
 
 .flexbox-item-2 {
-    background-image: url(../images/social-media-marketing.jpg);
+    background-image: url(../images/Weather.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .flexbox-item-3 {
-    background-image: url(../images/robot-gladiators.jpg);
+    background-image: url(../images/planner.jpg);
     background-size: cover;
     background-position: top;
 }
@@ -173,7 +173,7 @@ h4 {
 }
 
 .flexbox-item-5 {
-    background-image: url(../images/quiz.jpg);
+    background-image: url(../images/hero-bg.jpg);
     background-size: cover;
     background-position: center;
 }
