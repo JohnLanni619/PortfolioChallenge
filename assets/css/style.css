@@ -203,7 +203,6 @@ h4 {
 footer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin:15px 0 15px 100px;
 }
 
@@ -213,23 +212,21 @@ footer h3 {
 
 footer ul {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     list-style: none;
 }
 
 footer ul li {
-    padding: 10px 50px; 
+    padding: 10px 30px;
+    margin-top: 40px;
     font-weight: lighter;
-    font-size: 1.2vw;
+    font-size: 16px;
     border-bottom: 5px solid var(--primary-color);
     font-style: oblique;
-    margin-left: 10px;
-    margin-right: 170px;
-    flex-grow: 1;
+    margin-left: 20px;
 }
 
 footer a {
+    flex-grow: 1;
     text-decoration: none;
     height: 100%;
 }
@@ -292,13 +289,9 @@ a:hover {
     }
 
     #about-me img {
-        width: 100%;
-        height: fit-content;
-    }
-
-    #about-me p {
-        flex:none;
-        border: 10px solid orange;
+        display: none;
+        /* width: 100%;
+        height: fit-content; */
     }
 
     #work {
@@ -319,26 +312,43 @@ a:hover {
         width: fit-content;
     }
 
+    #work p {
+        display: none;
+    }
+
+    .section-title {
+        display: flex;
+    }
+
     footer {
         padding-bottom: 0;
         justify-content: center;
+        margin:none;
     }
 
     footer h3{
         width: 100%;
         text-align: center;
         border: none;
+        margin-right: 50px;
     }
 
     footer div ul {
+        text-align: center;
+        border-style: solid;
+        display: flex;
         margin-top: 20px;
-        width: 100%;
-        justify-content: center;
     }
 
-    footer div ul li a {
-        font-size: 20px;
+    footer div ul li {
+        padding: none;
+        margin: none;
+        display: flex;
+        flex-wrap: wrap;
         border: none;
     }
-    
+    footer div ul li a {
+        padding: none;
+        margin: none;
+    }
 }
