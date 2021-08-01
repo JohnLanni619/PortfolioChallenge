@@ -1,7 +1,7 @@
 # PortfolioChallenge
 
 ## Description
-The goal of this project was to look at current code for the Horiseon website, and identify how we can make it better. 
+The goal of this project was to create a portfolio that details me, and shows my most recent work with links to them as well.
 
 ## Key Points
 1. Added tiles of previous projects and future projects to be completed, along with link to deployed application.
@@ -16,7 +16,7 @@ The goal of this project was to look at current code for the Horiseon website, a
 [Link to Repository](https://github.com/JohnLanni619/PortfolioChallenge)
 
 ## Screenshot
-![website screenshot](![screencapture-file-C-Users-johnl-Desktop-PortfolioChallenge-index-html-2021-05-02-22_54_47](https://user-images.githubusercontent.com/82123623/116837756-b5994980-ab99-11eb-81c9-8c65f3d64157.png)
+![screencapture-file-C-Users-johnl-Desktop-PortfolioChallenge-index-html-2021-05-02-22_54_47](https://user-images.githubusercontent.com/82123623/116837756-b5994980-ab99-11eb-81c9-8c65f3d64157.png)
 
 ## About Me
 I'm an aspiring full-stack web developer, currently working through the Rutgers Coding Bootcamp. When I'm not studying coding, I'm working as a personal trainer and spending time with my 3 year old son.
