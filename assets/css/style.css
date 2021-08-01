@@ -163,13 +163,13 @@ h4 {
 .flexbox-item-1 {
     width: 100%;  
     padding: 130px 0;
-    background-image: url(../images/ambience.jpeg);
+    background-image: url(../images/anime.jpg);
     background-size:cover;
     
 }
 
 .flexbox-item-2 {
-    background-image: url(../images/Weather.jpg);
+    background-image: url(../images/ambience.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -187,7 +187,7 @@ h4 {
 }
 
 .flexbox-item-5 {
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url(../images/Weather.jpg);
     background-size: cover;
     background-position: center;
 }
